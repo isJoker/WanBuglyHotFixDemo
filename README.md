@@ -120,8 +120,8 @@ tinkerSupport {
     // isProtectedApp = true
 
     // 是否开启反射Application模式
-enableProxyApplication = false
-supportHotpugComponent = true
+    enableProxyApplication = false
+    supportHotpugComponent = true
 }
 
 /**
@@ -191,7 +191,7 @@ public class MyApplicationLike extends DefaultApplicationLike {
     public MyApplicationLike(Application application, int tinkerFlags,
             boolean tinkerLoadVerifyFlag, long applicationStartElapsedTime,
             long applicationStartMillisTime, Intent tinkerResultIntent) {
-        super(application, tinkerFlags, tinkerLoadVerifyFlag, applicationStartElapsedTime, applicationStartMillisTime, tinkerResultIntent);
+        super(application, tinkerFlags, tinkerLoadVerifyFlag, applicationStartElapsedTime, applicationStartMillisTime,     tinkerResultIntent);
     }
 
 
