@@ -351,6 +351,7 @@ Bugly.init(getApplication(), "fb2bada5b4", true);
 
 
 Bugly还支持全量升级、异常上报、运行统计，详情可以看Bugly官方文档：https://bugly.qq.com/docs/
+
 本文demo: https://github.com/isJoker/WanBuglyHotFixDemo
 
 
