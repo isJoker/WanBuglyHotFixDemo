@@ -339,7 +339,7 @@ Bugly.init(getApplication(), "fb2bada5b4", true);
 
 
 5、测试补丁应用效果
-启动基线版本App,点击显示文本时崩溃，只是我们前面造的一个空指针异常，重新启动基线版本App，等待一两分钟后，会开始自动下载补丁包，下载成功之后会立即合成补丁，我配置了Beta.canNotifyUserRestart = true ,所以会弹出对话框，提醒用户重启更新应用。由于Tinker需要再次冷启动才能使补丁生效，点击重启应用后会退出，再重新启动apk,点击显示文本，文本内容显示为修复后的内容，之前的的空指针异常就被成功修复了。
+启动基线版本App,点击显示文本时崩溃，这是我们前面造的一个空指针异常，重新启动基线版本App，等待一两分钟后，会开始自动下载补丁包，下载成功之后会立即合成补丁，我配置了Beta.canNotifyUserRestart = true ,所以会弹出对话框，提醒用户重启更新应用。由于Tinker需要再次冷启动才能使补丁生效，点击重启应用后会退出，再重新启动apk,点击显示文本，文本内容显示为修复后的内容，之前的的空指针异常就被成功修复了。
 
 ![这里写图片描述](http://img.blog.csdn.net/20171220104040143?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaXNKb2tlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
